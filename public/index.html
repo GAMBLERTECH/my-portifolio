@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAPHET SETTINGS</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<canvas id="bg-canvas"></canvas>
+
+<header>
+  <div class="logo-text"><span class="primary-light">GAMBLERTECH</span>-<span>STORY</span></div>
+  <button id="menu-toggle" class="menu-btn"><i class="fas fa-bars"></i></button>
+</header>
+
+<nav id="drawer">
+  <div class="drawer-header">
+    <strong class="primary-light">GAMBLERTECH STORY</strong>
+    <button id="close-menu" class="menu-btn"><i class="fas fa-times"></i></button>
+  </div>
+  <ul>
+    <li><a href="#pair" onclick="closeMenu()">Project showcase</a></li>
+    <li><a href="#deploy" onclick="closeMenu()">Profile</a></li>
+    <li><a href="#panel" onclick="closeMenu()">Panel</a></li>
+  </ul>
+  <a href="https://whatsapp.com/channel/0029VbB6qr1FnSz47vHlcT0z" target="_blank" class="btn full-btn">Follow Channel</a>
+</nav>
+
+<section id="welcome">
+  <div class="container">
+    <div class="reveal logo-container">
+      <img src="https://files.catbox.moe/dklu7h.jpg" alt="GAMBLER LOGO" />
+    </div>
+
+    <h1 class="reveal title">
+      <span class="gradient-text">GAMBLER</span>
+    </h1>
+
+    <div class="reveal cards-grid">
+      <div class="card">
+        <h3>🔰𝐁𝐀𝐂𝐊𝐆𝐑𝐎𝐔𝐍𝐃</h3>
+        <p>𝑯𝒊, 𝒎𝒚 𝑵𝒂𝒎𝒆 𝒊𝒔 𝑶𝒃𝒆𝒅 𝑶𝒏𝒅𝒂𝒓𝒂, 𝑰 𝒂𝒎 𝒇𝒓𝒐𝒎 𝑲𝒆𝒏𝒚𝒂.</p>
+        <p>𝑪𝒖𝒓𝒓𝒆𝒏𝒕𝒍𝒚 𝑳𝒊𝒗𝒊𝒏𝒈 𝒊𝒏 𝑲𝒊𝒔𝒊𝒊 𝒄𝒐𝒖𝒏𝒕𝒚.</p>
+        <p>𝑰 𝒂𝒎 20 𝒚𝒆𝒂𝒓𝒔 𝒐𝒍𝒅 𝒔𝒕𝒖𝒅𝒆𝒏𝒕 𝒂𝒕 𝑹𝒐𝒏𝒈𝒐 𝒖𝒏𝒊𝒗𝒆𝒓𝒔𝒊𝒕𝒚.</p>
+        <p>𝑷𝒖𝒓𝒔𝒖𝒊𝒏𝒈 𝒂 𝑩𝒂𝒄𝒉𝒆𝒍𝒐𝒓 𝒐𝒇 𝒄𝒐𝒎𝒎𝒆𝒓𝒄𝒆 𝒘𝒊𝒕𝒉 𝒂 𝒔𝒑𝒆𝒄𝒊𝒂𝒍𝒊𝒛𝒂𝒕𝒊𝒐𝒏 𝒊𝒏 𝒂𝒄𝒄𝒐𝒖𝒏𝒕𝒊𝒏𝒈.</p>
+      </div>
+      <div class="card">
+        <h3>🌹𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐉𝐎𝐔𝐑𝐍𝐄𝐘</h3>
+        <p>𝑨𝒕 𝒇𝒊𝒓𝒔𝒕, 𝑰 𝒅𝒊𝒅𝒏’𝒕 𝒑𝒍𝒂𝒏 𝒕𝒐 𝒃𝒆𝒄𝒐𝒎𝒆 𝒂 𝒔𝒐𝒇𝒕𝒘𝒂𝒓𝒆 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓. 𝑴𝒚 𝒂𝒄𝒂𝒅𝒆𝒎𝒊𝒄 𝒑𝒂𝒕𝒉 𝒘𝒂𝒔 𝒊𝒏 𝒃𝒖𝒔𝒊𝒏𝒆𝒔𝒔 — 𝒃𝒖𝒕 𝒅𝒆𝒆𝒑 𝒊𝒏𝒔𝒊𝒅𝒆, 𝑰 𝒘𝒂𝒔 𝒂𝒍𝒘𝒂𝒚𝒔 𝒄𝒖𝒓𝒊𝒐𝒖𝒔 𝒂𝒃𝒐𝒖𝒕 𝒉𝒐𝒘 𝒂𝒑𝒑𝒔, 𝒘𝒆𝒃𝒔𝒊𝒕𝒆𝒔, 𝒂𝒏𝒅 𝒃𝒐𝒕𝒔 𝒘𝒐𝒓𝒌. 𝑰 𝒖𝒔𝒆𝒅 𝒕𝒐 𝒔𝒑𝒆𝒏𝒅 𝒉𝒐𝒖𝒓𝒔 𝒘𝒂𝒕𝒄𝒉𝒊𝒏𝒈 𝒕𝒆𝒄𝒉 𝒄𝒐𝒏𝒕𝒆𝒏𝒕, 𝒆𝒙𝒑𝒍𝒐𝒓𝒊𝒏𝒈 𝒕𝒐𝒐𝒍𝒔, 𝒂𝒏𝒅 𝒕𝒆𝒂𝒄𝒉𝒊𝒏𝒈 𝒎𝒚𝒔𝒆𝒍𝒇 𝒕𝒉𝒓𝒐𝒖𝒈𝒉 𝒀𝒐𝒖𝑻𝒖𝒃𝒆, 𝑮𝒊𝒕𝑯𝒖𝒃, 𝒂𝒏𝒅 𝒇𝒓𝒆𝒆 𝒐𝒏𝒍𝒊𝒏𝒆 𝒓𝒆𝒔𝒐𝒖𝒓𝒄𝒆𝒔.
+
+𝑾𝒊𝒕𝒉𝒐𝒖𝒕 𝒂 𝒇𝒐𝒓𝒎𝒂𝒍 𝒃𝒂𝒄𝒌𝒈𝒓𝒐𝒖𝒏𝒅 𝒊𝒏 𝒑𝒓𝒐𝒈𝒓𝒂𝒎𝒎𝒊𝒏𝒈, 𝑰 𝒔𝒕𝒂𝒓𝒕𝒆𝒅 𝒔𝒎𝒂𝒍𝒍 — 𝒃𝒖𝒊𝒍𝒅𝒊𝒏𝒈 𝒔𝒊𝒎𝒑𝒍𝒆 𝒔𝒄𝒓𝒊𝒑𝒕𝒔, 𝒕𝒉𝒆𝒏 𝒃𝒐𝒕𝒔, 𝒂𝒏𝒅 𝒆𝒗𝒆𝒏𝒕𝒖𝒂𝒍𝒍𝒚 𝒇𝒖𝒍𝒍 𝒕𝒐𝒐𝒍𝒔 𝒍𝒊𝒌𝒆 𝒎𝒆𝒅𝒊𝒂 𝒅𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒓𝒔 𝒂𝒏𝒅 𝒐𝒕𝒉𝒆𝒓 𝒑𝒓𝒐𝒋𝒆𝒄𝒕𝒔 𝒖𝒏𝒅𝒆𝒓 𝒎𝒚 𝒃𝒓𝒂𝒏𝒅, 𝑶𝒃𝒆𝒅𝑻𝒆𝒄𝒉*. 𝑾𝒉𝒂𝒕 𝒔𝒕𝒂𝒓𝒕𝒆𝒅 𝒂𝒔 𝒂 𝒔𝒊𝒅𝒆 𝒑𝒂𝒔𝒔𝒊𝒐𝒏 𝒕𝒖𝒓𝒏𝒆𝒅 𝒊𝒏𝒕𝒐 𝒂 𝒓𝒆𝒂𝒍 𝒔𝒌𝒊𝒍𝒍.
+
+𝑻𝒐𝒅𝒂𝒚, 𝑰 𝒃𝒖𝒊𝒍𝒅 𝒖𝒔𝒆𝒇𝒖𝒍 𝒕𝒐𝒐𝒍𝒔 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒐𝒕𝒉𝒆𝒓𝒔 — 𝒆𝒔𝒑𝒆𝒄𝒊𝒂𝒍𝒍𝒚 𝒄𝒐𝒎𝒓𝒂𝒅𝒆𝒔 𝒍𝒊𝒌𝒆 𝒎𝒆 𝒘𝒉𝒐 𝒘𝒂𝒏𝒕 𝒔𝒐𝒍𝒖𝒕𝒊𝒐𝒏𝒔 𝒕𝒉𝒂𝒕 𝒂𝒄𝒕𝒖𝒂𝒍𝒍𝒚 𝒘𝒐𝒓𝒌.
+
+𝑴𝒚 𝒋𝒐𝒖𝒓𝒏𝒆𝒚 𝒊𝒔 𝒔𝒕𝒊𝒍𝒍 𝒐𝒏𝒈𝒐𝒊𝒏𝒈, 𝒃𝒖𝒕 𝑰’𝒎 𝒑𝒓𝒐𝒖𝒅 𝒕𝒐 𝒄𝒂𝒍𝒍 𝒎𝒚𝒔𝒆𝒍𝒇 𝒂 𝒔𝒆𝒍𝒇-𝒕𝒂𝒖𝒈𝒉𝒕 𝒔𝒐𝒇𝒕𝒘𝒂𝒓𝒆 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 — 𝒂𝒏𝒅 𝑰’𝒎 𝒋𝒖𝒔𝒕 𝒈𝒆𝒕𝒕𝒊𝒏𝒈 𝒔𝒕𝒂𝒓𝒕𝒆𝒅..</p>
+      </div>
+      <div class="card">
+        <h3>🔐𝐌𝐘 𝐅𝐔𝐓𝐔𝐑𝐄 𝐏𝐋𝐀𝐍𝐒</h3>
+        <p>𝑰’𝒎 𝒃𝒖𝒊𝒍𝒅𝒊𝒏𝒈 𝒂 𝒇𝒖𝒕𝒖𝒓𝒆 𝒘𝒉𝒆𝒓𝒆 𝑰 𝒈𝒓𝒐𝒘 𝒊𝒏 𝒃𝒐𝒕𝒉 𝒃𝒖𝒔𝒊𝒏𝒆𝒔𝒔 𝒂𝒏𝒅 𝒕𝒆𝒄𝒉.  
+𝑰’𝒎 𝒐𝒏 𝒕𝒉𝒆 𝒑𝒂𝒕𝒉 𝒕𝒐 𝒃𝒆𝒄𝒐𝒎𝒊𝒏𝒈 𝒂 𝒑𝒓𝒐𝒇𝒆𝒔𝒔𝒊𝒐𝒏𝒂𝒍 𝒂𝒄𝒄𝒐𝒖𝒏𝒕𝒂𝒏𝒕 — 𝒑𝒖𝒓𝒔𝒖𝒊𝒏𝒈 𝒎𝒚 𝑪𝑷𝑨, 𝒅𝒆𝒈𝒓𝒆𝒆, 𝑴𝒂𝒔𝒕𝒆𝒓’𝒔, 𝒂𝒏𝒅 𝒆𝒗𝒆𝒏𝒕𝒖𝒂𝒍𝒍𝒚 𝒂 𝑷𝒉𝑫 𝒊𝒏 𝑨𝒄𝒄𝒐𝒖𝒏𝒕𝒊𝒏𝒈.
+
+𝑨𝒍𝒐𝒏𝒈𝒔𝒊𝒅𝒆 𝒕𝒉𝒂𝒕, 𝑰’𝒎 𝒈𝒓𝒐𝒘𝒊𝒏𝒈 𝒂𝒔 𝒂 𝒔𝒆𝒍𝒇-𝒕𝒂𝒖𝒈𝒉𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓, 𝒖𝒔𝒊𝒏𝒈 𝒎𝒚 𝒔𝒌𝒊𝒍𝒍𝒔 𝒕𝒐 𝒃𝒖𝒊𝒍𝒅 𝒘𝒆𝒃𝒔𝒊𝒕𝒆𝒔, 𝒐𝒇𝒇𝒆𝒓 𝒕𝒆𝒄𝒉 𝒔𝒆𝒓𝒗𝒊𝒄𝒆𝒔, 𝒂𝒏𝒅  𝒆𝒂𝒓𝒏 𝒕𝒉𝒓𝒐𝒖𝒈𝒉 𝒅𝒊𝒈𝒊𝒕𝒂𝒍 𝒘𝒐𝒓𝒌
+
+𝑰𝒏 𝒕𝒉𝒆 𝒇𝒖𝒕𝒖𝒓𝒆, 𝑰 𝒑𝒍𝒂𝒏 𝒕𝒐 𝒐𝒇𝒇𝒆𝒓 𝒄𝒐𝒎𝒑𝒖𝒕𝒆𝒓 𝒄𝒍𝒂𝒔𝒔𝒆𝒔 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒐𝒕𝒉𝒆𝒓𝒔 𝒍𝒆𝒂𝒓𝒏 𝒌𝒆𝒚 𝒅𝒊𝒈𝒊𝒕𝒂𝒍 𝒔𝒌𝒊𝒍𝒍𝒔 𝒍𝒊𝒌𝒆:  
+- 𝑩𝒂𝒔𝒊𝒄 𝒄𝒐𝒎𝒑𝒖𝒕𝒆𝒓 𝒑𝒂𝒄𝒌𝒂𝒈𝒆𝒔  
+- 𝑮𝒓𝒂𝒑𝒉𝒊𝒄 𝒅𝒆𝒔𝒊𝒈𝒏 
+- 𝑾𝒆𝒃 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕  
+- 𝑶𝒏𝒍𝒊𝒏𝒆 𝒇𝒓𝒆𝒆𝒍𝒂𝒏𝒄𝒊𝒏𝒈
+- 𝑻𝒆𝒄𝒉 𝒕𝒐𝒐𝒍𝒔 𝒇𝒐𝒓 𝒔𝒕𝒖𝒅𝒆𝒏𝒕𝒔 𝒂𝒏𝒅 𝒃𝒖𝒔𝒊𝒏𝒆𝒔𝒔
+
+𝑴𝒚 𝒎𝒊𝒔𝒔𝒊𝒐𝒏 𝒊𝒔 𝒕𝒐 𝒔𝒖𝒄𝒄𝒆𝒆𝒅 — 𝒂𝒏𝒅 𝒃𝒓𝒊𝒏𝒈 𝒐𝒕𝒉𝒆𝒓𝒔 𝒘𝒊𝒕𝒉 𝒎𝒆. 𝑻𝒉𝒊𝒔 𝒊𝒔 𝒋𝒖𝒔𝒕 𝒕𝒉𝒆 𝒃𝒆𝒈𝒊𝒏𝒏𝒊𝒏𝒈..</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pair">
+  <div class="container">
+    <h2 class="reveal">🌟𝐏𝐑𝐎𝐉𝐄𝐂𝐓 𝐒𝐇𝐎𝐖𝐂𝐀𝐒𝐄</h2>
+    <p class="reveal">𝚃𝚑𝚎𝚜𝚎 𝚊𝚛𝚎 𝚊 𝚏𝚎𝚠 𝚘𝚏 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚙𝚛𝚘𝚓𝚎𝚌𝚝𝚜 𝙸'𝚟𝚎 𝚋𝚞𝚒𝚕𝚝.</p>
+    <div class="reveal pair-buttons">
+      <a href="https://obed-tech-web.vercel.app/" target="_blank" class="btn"><i class="fas fa-qrcode"></i> MEDIA DOWNLOADER</a>
+      <a href="https://hunter-xmd-website.vercel.app/" target="_blank" class="btn"><i class="fas fa-link"></i> HUNTER-XMD WEB</a>
+    </div>
+  </div>
+</section>
+
+
+<section id="footer">
+  <div class="container reveal">
+    <h3>✨GAMBLER PROJECTS</h3>
+    <p>Join over 2,000 users and contributors building better WhatsApp bots together.</p>
+    <div class="social-buttons">
+      <a href="https://github.com/Obedweb" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://t.me/Obed Tech" class="btn" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+      <a href="https://wa.me/254787892183" class="btn" target="_blank"><i class="fas fa-book"></i> Contact</a>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> powered by JAPHET</p>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+<script src="script.js"></script>
+</body>
+                         </html>
